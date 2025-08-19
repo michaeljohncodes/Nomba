@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.1;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* body{
+  color: #ffffff;
+} */
+
+/* colors
+white --- #FFFFFF
+yellow--- #FFCC00
+black--- #121212 
+grey --- #F4F4F4
+purple --- #D897DF
+
+*/
+
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 10px;
+}
+
+.header {
+  background-color: white;
+}
+.header .nav {
+  background-color: transparent;
+}
+.header .cta {
+  background-color: #121212;
+  color: white;
+}
+.header .cta .link:hover {
+  background-color: #ffcc00;
+  color: #121212;
+}
+
+.hero {
+  background-color: #ffffff;
+  color: #121212;
+}
+.hero_content {
+  /* text-align: left; */
+}
+
+.wallet {
+  background-color: #121212;
+}
+
+.floats {
+  background-color: #ffffff;
+}
+.transactions{
+  background-color: #ffffff;
+  color: #121212;
+}
+
+.testimonial{
+  background-color: #121212;
+}
+.faq{
+  background-color: #ffffff;
+  color:  #121212;
+}
+.footer{
+  background-color: #121212;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
