@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import AnswerOne from "../faqStates/AnswerOne";
 
 const FAQs = () => {
   const [answerOne, setAnswerOne] = useState(false);
