@@ -8,6 +8,7 @@ import transactionImage5 from "../../assets/images/transaction-img5.png";
 import subImage1 from "../../assets/images/sub1.png";
 import subImage2 from "../../assets/images/sub2.png";
 import subImage3 from "../../assets/images/sub3.png";
+import transactionImage1B from "../../assets/images/float-image4.png";
 
 const Transactions = () => {
   return (
@@ -26,14 +27,15 @@ const Transactions = () => {
       <div className=" flex flex-col justify-center items-center gap-[100px]">
         <main className="flex justify-between gap-[30px] w-[80%]">
           <div className=" min-w-[45%] flex flex-col justify-end items-center gap-[50px] rounded-[40px] bg-[#F4F4F4] px-[50px] pt-[50px] ">
-            <h3 className=" font-semibold w-[65%] text-center">
+            <h3 className=" font-semibold w-[80%] text-center">
               Move money anywhere in minutes.
             </h3>
             <img src={transactionImage1} alt="" />
           </div>
           <div className=" min-w-[45%] flex flex-col justify-between items-center gap-[20px] ">
-            <div>
+            <div className=" relative">
               <img src={transactionImage2} alt=" image here " />
+              <img src={transactionImage1B} alt="" className=" absolute top-[120px] right-[-30px]" />
             </div>
             <div className=" bg-[#F4F4F4] rounded-[20px]">
               <img src={transactionImage3} alt=" image here " />
@@ -41,12 +43,12 @@ const Transactions = () => {
           </div>
         </main>
 
-        <main className="flex justify-between gap-[50px] w-[80%] pr-[100px]">
+        <main className="flex justify-between gap-[100px] w-[80%]">
           <div className=" max-w-[50%] flex flex-col justify-center items-start gap-[20px] rounded-[40p]">
-            <h2 className=" font-bold w-[70%]">
+            <h2 className=" font-bold w-[80%]">
               Send money as easy as sending a text message
             </h2>
-            <h4 className=" font-medium w-[70%]">
+            <h4 className=" font-medium w-[95%]">
               Money arrives when they need it. Rest easy knowing you can swiftly
               and securely send funds when they need it most.
             </h4>
@@ -55,13 +57,12 @@ const Transactions = () => {
               <img src={arrow} alt="" />
             </div>
           </div>
-          <div className=" max-w-[40%] flex flex-col justify-between items-center gap-[20px] ">
-            <div className=" relative">
+          <div className=" relative min-w-[40%] items-center gap-[20px] ">
               <img src={transactionImage4} alt=" image here " className="relative" />
-              <img src={subImage1} alt="" className=" absolute top-[100px] left-[-100px] z-50 w-[40%]" />
-              <img src={subImage2} alt="" className=" absolute top-[50px] right-[-50px] z-50 w-[30%]" />
-              <img src={subImage3} alt="" className=" absolute bottom-[100px] right-[-50px] z-50" />
-            </div>
+              <img src={subImage1} alt="" className=" absolute top-[100px] left-[-50px] z-50 w-[40%]" />
+              <img src={subImage2} alt="" className=" absolute top-[50px] right-[-20px] z-50 w-[30%]" />
+              <img src={subImage3} alt="" className=" absolute bottom-[100px] right-[-20px] z-50" />
+           
           </div>
         </main>
 
@@ -72,13 +73,13 @@ const Transactions = () => {
             </div>
           </div>
           <div className=" w-[45%] flex flex-col justify-center items-start gap-[20px] rounded-[40p]">
-            <h2 className=" font-bold w-[70%]">
+            <h2 className=" font-bold w-[90%]">
               Make payments securely through the Nomba QR
             </h2>
-            <h4 className=" font-medium w-[90%]">
+            <h5 className=" font-medium w-[95%]">
               Using the Nomba App or the QR card(s) provides you, our customers,
               with advanced protection during each and every transactions.
-            </h4>
+            </h5>
             <div className=" flex items-center gap-[20px]">
               <p className=" font-medium ">Learn more about Nomba QR</p>
               <img src={arrow} alt="" />

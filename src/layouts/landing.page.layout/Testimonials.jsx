@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <div className=" testimonial w-full mx-auto py-[70px] px-[50px] flex flex-col gap-[60px] items-center ">
       <h4>TESTIMONIALS</h4>
-      <h1 className=" w-[50%] text-center font-medium">
+      <h1 className=" w-[70%] text-center font-medium">
         What our customer are saying about Nomba
       </h1>
       <main className=" flex flex-col justify-between gap-[50px] w-full px-[20px]">
@@ -39,10 +39,10 @@ const Testimonials = () => {
           <div className=" w-[42%] rounded-[20px] flex flex-col justify-between py-[20px] px-[25px] gap-[50px] bg-[#D897DF] text-[#121212]">
             <div className=" flex flex-col gap-[20px]">
               <p className=" font-medium">CUSTOMER STORIES</p>
-              <h3 className=" w-full font-medium">
+              <p className=" w-full font-semibold text-[25px]">
                 How Cofe place saved 15 hours and reinvested into their business
                 growth both home and abroad
-              </h3>
+              </p>
             </div>
             <img src={testImage2} alt=" image here" />
           </div>
@@ -50,7 +50,7 @@ const Testimonials = () => {
           <div className=" w-[55%] rounded-[20px] flex flex-col justify-between p-[30px] bg-[#303030]">
             <div className=" flex flex-col gap-[20px]">
               <p className="">REVIEWS</p>
-              <h2 className=" w-[85%] ">
+              <h2 className=" w-[95%] ">
                 “The good thing about Nomba is it saves a lot of time and money
                 so i can do other things - the running of the business part
                 itself.”

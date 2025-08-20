@@ -9,14 +9,16 @@ const FAQs = () => {
 
   return (
     <div className=" faq w-full mx-auto py-[70px] px-[20px] border flex flex-col justify-center gap-[70px] items-center text-center ">
-      <h1 className=" font-medium w-[60%]">
-        Some of the things you may want to know
-      </h1>
-      <h4 className=" font-medium w-[40%]">
-        We have provided answers to common questions to save you the trouble of
-        asking
-      </h4>
-      <main className="flex flex-col gap-[40px] w-[60%] font-medium ">
+      <div className=" flex flex-col justify-center items-center gap-[20px]">
+        <h1 className=" font-semibold w-[70%]">
+          Some of the things you may want to know
+        </h1>
+        <h4 className=" font-medium w-[50%]">
+          We have provided answers to common questions to save you the trouble
+          of asking
+        </h4>
+      </div>
+      <main className="flex flex-col gap-[20px] w-[60%] font-medium ">
         <div className=" flex justify-between items-center w-full">
           <h4>How does Nomba work?</h4>
           <button

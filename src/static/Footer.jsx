@@ -3,15 +3,29 @@ import apple from "../../src/assets/images/apple-logo.png";
 import google from "../../src/assets/images/google-logo.png";
 import whiteLogo from "../../src/assets/images/white-logo.png";
 import { Link } from "react-router-dom";
+import footerImage1 from "../assets/images//footer-image1.png";
+import footerImage2 from "../assets/images//footer-image2.png";
 
 const Footer = () => {
   return (
-    <div className=" footer w-full mx-auto py-[70px] px-[50px] flex flex-col justify-between gap-[100px]">
+    <div className=" footer relative w-full mx-auto py-[70px] px-[70px] flex flex-col justify-between gap-[100px]">
+      <img
+        src={footerImage1}
+        alt=""
+        className=" absolute top-[0px] left-[0px] w-[15%]"
+      />
+      <img
+        src={footerImage2}
+        alt=""
+        className=" absolute bottom-[0px] right-[-30px] w-[15%] h-[50%]"
+      />
       <main className=" flex flex-col justify-center items-center gap-[40px]">
-        <h1>
+        <h1 className=" font-semibold">
           Get a free <span className=" text-[#FFCC00]">Nomba</span> account
         </h1>
-        <h4>Change how you spend, manage and save money.</h4>
+        <h4 className=" text-[25px]">
+          Change how you spend, manage and save money.
+        </h4>
         <div className=" flex gap-[50px]">
           <Link to="/">
             <button className=" flex items-center gap-[10px] rounded-[10px] bg-[#252525] px-[20px] py-[10px] hover:cursor-pointer">
