@@ -37,7 +37,7 @@ const Header = () => {
             to={"/"}
             className=" link border-transparent rounded-[25px] px-[20px] py-[8px] cursor-pointer"
           >
-            Sign in
+            Sign-In
           </Link>
           <Link
             to={"/"}
@@ -94,7 +94,7 @@ const Header = () => {
             to={"/"}
             className=" border-[3px] rounded-[20px] px-[40px] py-[15px] hover:bg-[#121212] hover:text-[#ffffff]  transition-colors duration-150 ease-in-out cursor-pointer"
           >
-            Sign in
+            Sign-In
           </Link>
           <Link
             to={"/"}
