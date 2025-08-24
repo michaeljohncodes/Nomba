@@ -8,7 +8,7 @@ import footerImage2 from "../assets/images//footer-image2.png";
 
 const Footer = () => {
   return (
-    <div className=" footer relative w-full mx-auto py-[70px] px-[70px] flex flex-col justify-between gap-[100px]">
+    <div className=" footer relative w-full mx-auto py-[70px] px-[70px] flex flex-col justify-between gap-[100px] max-[835px]:gap-[70px]">
       <img
         src={footerImage1}
         alt=""
@@ -17,15 +17,15 @@ const Footer = () => {
       <img
         src={footerImage2}
         alt=""
-        className=" absolute bottom-[0px] right-[-30px] w-[15%] h-[50%]"
+        className=" absolute bottom-[0px] right-[0px] w-[10%] h-[25%]"
       />
-      <main className=" flex flex-col justify-center items-center gap-[40px]">
-        <h1 className=" font-semibold">
+      <main className=" flex flex-col justify-center items-center gap-[40px] text-center max-[835px]:gap-[30px]">
+        <p className=" text-[60px] font-semibold max-[835px]:text-[40px]">
           Get a free <span className=" text-[#FFCC00]">Nomba</span> account
-        </h1>
-        <h4 className=" text-[25px]">
+        </p>
+        <p className=" text-[22px] max-[835px]:text-[18px]">
           Change how you spend, manage and save money.
-        </h4>
+        </p>
         <div className=" flex gap-[50px]">
           <Link to="/">
             <button className=" flex items-center gap-[10px] rounded-[10px] bg-[#252525] px-[20px] py-[10px] hover:cursor-pointer">
@@ -42,46 +42,46 @@ const Footer = () => {
         </div>
       </main>
 
-      <main className=" flex justify-between gap-[100px] w-full">
-        <div className=" flex flex-col gap-[20px]">
-          <h4 className=" text-[#919191]"> Products</h4>
-          <h4>Accept Payments</h4>
-          <h4>Make Payments</h4>
-          <h4>Terminal </h4>
+      <main className=" flex flex-wrap justify-between gap-[100px] w-full max-[835px]:gap-x-[20px]">
+        <div className=" flex flex-col gap-[20px] text-[22px] max-[835px]:text-[16px]">
+          <p className=" text-[#919191]"> Products</p>
+          <p>Accept Payments</p>
+          <p>Make Payments</p>
+          <p>Terminal </p>
         </div>
-        <div className=" flex flex-col gap-[20px]">
-          <h4 className=" text-[#919191]">Nomba</h4>
-          <h4>About us</h4>
-          <h4>Blog </h4>
-          <h4>Work with Nomba</h4>
+        <div className=" flex flex-col gap-[20px] text-[22px] max-[835px]:text-[16px]">
+          <p className=" text-[#919191]">Nomba</p>
+          <p>Blog </p>
+          <p>About us</p>
+          <p>Work with Nomba</p>
         </div>
-        <div className=" flex flex-col gap-[20px]">
-          <h4 className=" text-[#919191]"> Business Types</h4>
-          <h4>Mobile Money Agents</h4>
-          <h4>Small Business</h4>
-          <h4>Large Business</h4>
+        <div className=" flex flex-col gap-[20px] text-[22px] max-[835px]:text-[16px]">
+          <p className=" text-[#919191]"> Business Types</p>
+          <p>Mobile Money Agents</p>
+          <p>Small Business</p>
+          <p>Large Business</p>
         </div>
-        <div className=" flex flex-col gap-[20px]">
-          <h4 className=" text-[#919191]">Contact us</h4>
-          <h4>018888866</h4>
-          <h4>015200061</h4>
-          <h4>support@nomba.com</h4>
+        <div className=" flex flex-col gap-[20px] text-[22px] max-[835px]:text-[16px]">
+          <p className=" text-[#919191]">Contact us</p>
+          <p>018888866</p>
+          <p>015200061</p>
+          <p>support@nomba.com</p>
         </div>
       </main>
 
-      <main className=" flex flex-col justify-start gap-[50px]">
-        <div className=" flex flex-col gap-[20px]">
-          <h4 className=" text-[#919191]">Follow us</h4>
-          <h4>Instagram</h4>
-          <h4>Twitter</h4>
-          <h4>YouTube</h4>
-          <h4>Facebook</h4>
+      <main className=" flex flex-col justify-start gap-[50px] text-[22px] max-[835px]:text-[16px] max-[835px]:flex max-[835px]:gap-[] ">
+        <div className=" flex flex-col gap-[20px] text-[22px] max-[835px]:text-[16px]">
+          <p className=" text-[#919191]">Follow us</p>
+          <p>Instagram</p>
+          <p>Twitter</p>
+          <p>YouTube</p>
+          <p>Facebook</p>
         </div>
         <div className=" flex flex-col gap-[30px]">
           <img src={whiteLogo} alt="" className=" w-[15%]" />
           <div className=" flex gap-[20px]">
-            <h4>Privacy Policy</h4>
-            <h4>Terms of services</h4>
+            <p>Privacy Policy</p>
+            <p>Terms of services</p>
           </div>
         </div>
       </main>

@@ -10,7 +10,7 @@ import floatImage7 from ".././../assets/images/float-image7.png";
 const Floats = () => {
   return (
     <div className=" floats w-full mx-auto py-[70px] px-[20px] flex flex-col  items-center ">
-      <main className=" w-[80%] flex flex-wrap justify-center gap-x-[100px] gap-y-[40px] items-center object-contain py-[50px]">
+      <main className=" w-[80%] flex justify-center gap-x-[100px] gap-y-[40px] items-center object-contain py-[50px] max-[835px]:w-full max-[835px]:flex max-[835px]:overflow-scroll max-[1440px]:overflow-scroll max-[835px]:gap-x-[50px] max-[835px]:snap-start">
         <img src={floatImage1} alt="" className="" />
 
         <img src={floatImage2} alt="" />
