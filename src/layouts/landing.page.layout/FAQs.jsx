@@ -20,7 +20,9 @@ const FAQs = () => {
       </div>
       <main className="flex flex-col gap-[20px] w-[60%] font-medium max-[835px]:w-[80%] ">
         <div className=" flex justify-between items-center w-full">
-          <h4>How does Nomba work?</h4>
+          <p className=" text-[22px] max-[835px]:text-[16px]">
+            How does Nomba work?
+          </p>
           <button
             className=" text-[30px] hover:cursor-pointer"
             onClick={() => setAnswerOne(!answerOne)}
@@ -29,11 +31,13 @@ const FAQs = () => {
             +{" "}
           </button>
         </div>
-        <div className=" border-b text-[20px] pb-[10px]">
+        <div className=" border-b text-[20px] pb-[10px] max-[835px]:text-[16px]">
           {answerOne ? "Answer one comes here" : ""}
         </div>
         <div className="flex justify-between items-center">
-          <h4>Is there a fee for opening a Nomba account?</h4>
+          <p className=" text-[22px] max-[835px]:text-[16px]">
+            Is there a fee for opening a Nomba account?
+          </p>
           <button
             className=" text-[30px] hover:cursor-pointer"
             onClick={() => setAnswerTwo(!answerTwo)}
@@ -42,11 +46,13 @@ const FAQs = () => {
             +{" "}
           </button>
         </div>
-        <div className=" border-b text-[20px] pb-[10px]">
+        <div className=" border-b text-[20px] pb-[10px] max-[835px]:text-[16px]">
           {answerTwo ? "Answer two comes here" : ""}
         </div>
         <div className=" flex justify-between items-center">
-          <h4>Can a personal bank account be used for business?</h4>
+          <p className=" text-[22px] max-[835px]:text-[16px]">
+            Can a personal bank account be used for business?
+          </p>
           <button
             className=" text-[30px] hover:cursor-pointer"
             onClick={() => setAnswerThree(!answerThree)}
@@ -55,11 +61,13 @@ const FAQs = () => {
             +{" "}
           </button>
         </div>{" "}
-        <div className=" border-b text-[20px] pb-[10px]">
+        <div className=" border-b text-[20px] pb-[10px] max-[835px]:text-[16px]">
           {answerThree ? "Answer three comes here" : ""}
         </div>
         <div className=" flex justify-between items-center">
-          <h4>Is Nomba safe to use?</h4>
+          <p className=" text-[22px] max-[835px]:text-[16px]">
+            Is Nomba safe to use?
+          </p>
           <button
             className=" text-[30px] hover:cursor-pointer"
             onClick={() => setAnswerFour(!answerFour)}
@@ -68,11 +76,13 @@ const FAQs = () => {
             +{" "}
           </button>
         </div>{" "}
-        <div className=" border-b text-[20px] pb-[10px]">
+        <div className=" border-b text-[20px] pb-[10px] max-[835px]:text-[16px]">
           {answerFour ? "Answer four comes here" : ""}
         </div>
         <div className=" flex justify-between items-center">
-          <h4>How do i access my account?</h4>
+          <p className=" text-[22px] max-[835px]:text-[16px]">
+            How do i access my account?
+          </p>
           <button
             className=" text-[30px] hover:cursor-pointer"
             onClick={() => setAnswerFive(!answerFive)}
@@ -81,7 +91,7 @@ const FAQs = () => {
             +{" "}
           </button>
         </div>
-        <div className=" border-b text-[20px] pb-[10px]">
+        <div className=" border-b text-[20px] pb-[10px] max-[835px]:text-[16px]">
           {answerFive ? "Answer Five comes here" : ""}
         </div>
       </main>

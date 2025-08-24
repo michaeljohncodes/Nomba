@@ -9,8 +9,8 @@ const Header = () => {
   const [menu, setMenu] = useState(false);
 
   return (
-    <>
-      <div className="header text-black flex justify-between items-center fixed w-full top-0 z-100 backdrop-blur-lg bg-[#1C1B22]/15 mx-auto py-[15px] px-[50px] ">
+    <div className=" max-w-[1440px] mx-auto">
+      <div className="header  max-w-[1440px] text-black flex justify-between items-center fixed w-full top-0 z-100 backdrop-blur-lg bg-[#1C1B22]/15 mx-auto py-[15px] px-[50px] ">
         <div className=" w-[10%] flex max-[835px]:w-[50%] ">
           <Link to="/">
             <nav>
@@ -104,7 +104,7 @@ const Header = () => {
           </Link>
         </div>
       )}
-    </>
+    </div>
   );
 };
 

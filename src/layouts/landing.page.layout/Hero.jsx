@@ -7,7 +7,7 @@ import customerCare from "../../assets/images/customer-service-line.png";
 
 const Hero = () => {
   return (
-    <div className=" border hero w-full mx-auto flex flex-col gap-[60px] items-center justify-between px-[50px] py-[40px] max-[835px]:justify-center ">
+    <div className=" hero w-full mx-auto flex flex-col gap-[60px] items-center justify-between px-[50px] py-[40px] max-[835px]:justify-center ">
       <div className=" w-full mx-auto flex flex-wrap-reverse gap-[30px] items-center justify-between max-[835px]:justify-center">
         <main className=" hero_content flex flex-col gap-[20px] w-[40%] max-[835px]:w-[100%] max-[835px]:items-center max-[835px]:mx-auto max-[835px]:text-center  ">
           <Link

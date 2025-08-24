@@ -57,7 +57,7 @@ const Transactions = () => {
               and securely send funds when they need it most.
             </p>
             <div className=" flex items-center gap-[20px]">
-              <p className=" font-medium ">Learn more about Transfers</p>
+              <p className=" font-medium max-[835px]:text-[13px] ">Learn more about Transfers</p>
               <img src={arrow} alt="" />
             </div>
           </div>
@@ -100,7 +100,7 @@ const Transactions = () => {
               with advanced protection during each and every transactions.
             </p>
             <div className=" flex items-center gap-[20px]">
-              <p className=" font-medium ">Learn more about Nomba QR</p>
+              <p className=" font-medium max-[835px]:text-[13px] ">Learn more about Nomba QR</p>
               <img src={arrow} alt="" />
             </div>
           </div>
