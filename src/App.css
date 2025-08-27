@@ -23,6 +23,23 @@
   box-sizing: border-box;
 }
 
+
+
+.custom-scroll::-webkit-scrollbar {
+  height:10px;
+  width: 0px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #FFCC00;
+  /* blue-500 */
+
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #575656f2;
+  /* gray-200 */
+}
 /* body{
   color: #ffffff;
 } */
