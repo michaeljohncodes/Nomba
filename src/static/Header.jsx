@@ -51,9 +51,9 @@ const Header = () => {
           onClick={() => setMenu(!menu)}
         >
           {menu ? (
-            <AiOutlineClose size={40} color="#b90808" />
+            <AiOutlineClose size={30} color="#b90808" />
           ) : (
-            <CiMenuKebab size={40} color="#121212" />
+            <CiMenuKebab size={30} color="#121212" />
           )}
         </div>
       </div>
