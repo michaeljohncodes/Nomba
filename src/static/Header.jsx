@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <div className=" max-w-[1440px] mx-auto">
-      <div className="header  max-w-[1440px] text-black flex justify-between items-center fixed w-full top-0 z-100 backdrop-blur-lg bg-[#1C1B22]/15 mx-auto py-[15px] px-[50px] ">
+      <div className="header  max-w-[1440px] text-black flex justify-between items-center fixed w-full top-0 z-150 backdrop-blur-lg bg-[#1C1B22]/15 mx-auto py-[15px] px-[50px] max-[430px]:px-[10px] ">
         <div className=" w-[10%] flex max-[835px]:w-[50%] ">
           <Link to="/">
             <nav>
@@ -60,7 +60,7 @@ const Header = () => {
       <div className="h-[50px]"></div>
 
       {menu && (
-        <div className=" text-[25px] flex flex-col fixed bg-[#ffffff] z-50 top-0 h-screen w-full pt-50 items-center gap-[50px] text-[#121212] font-semibold">
+        <div className=" border text-[25px] flex flex-col fixed bg-[#ffffff] z-100 top-0 h-screen w-full pt-50 items-center gap-[50px] text-[#121212] font-semibold max-[430px]:gap-[25px] max-[430px]:text-[18px]">
           <Link
             to="#"
             onClick={() => setMenu(!menu)}
@@ -92,13 +92,13 @@ const Header = () => {
 
           <Link
             to={"/"}
-            className=" border-[3px] rounded-[20px] px-[40px] py-[15px] hover:bg-[#121212] hover:text-[#ffffff]  transition-colors duration-150 ease-in-out cursor-pointer"
+            className=" border-[2px] px-[40px] py-[15px] hover:bg-[#121212] hover:text-[#ffffff] hover:rounded-[10px]  transition-colors duration-150 ease-in-out cursor-pointer"
           >
             Sign-In
           </Link>
           <Link
             to={"/"}
-            className=" border-[3px] rounded-[20px] px-[40px] py-[15px] hover:bg-[#121212] hover:text-[#ffffff] transition-colors duration-150 ease-in-out cursor-pointer"
+            className=" border-[2px] px-[40px] py-[15px] hover:bg-[#121212] hover:text-[#ffffff] hover:rounded-[10px] transition-colors duration-150 ease-in-out cursor-pointer"
           >
             Get Started
           </Link>
